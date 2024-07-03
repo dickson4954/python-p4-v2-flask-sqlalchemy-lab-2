@@ -1,5 +1,8 @@
 from flask import Flask
 from flask_migrate import Migrate
+from flask_sqlalchemy import SQLAlchemy
+
+from models import Customer, Item, Review
 
 from models import db
 
